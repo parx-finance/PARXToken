@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/parx.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/parx.sol": {
+			"keccak256": "0xdd6288b332a2abee2aeb08ecf316c4674278264626f947f4e3b4165562dbae7f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c47ed504d4d9ef1c84caf7d1b98cd073c6c15f5971ed7bc2175ef6898e7f0653",
+				"dweb:/ipfs/QmaDiwQsjhWE6mHQ6yquVMmncVnAFPuRBogc827iWacjUb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"name": "_masterCopy",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"author": "Stefan George - <stefan@gnosis.io>Richard Meissner - <richard@gnosis.io>",
+			"methods": {
+				"constructor": {
+					"details": "Constructor function sets address of master copy contract.",
+					"params": {
+						"_masterCopy": "Master copy address."
+					}
+				}
+			},
+			"title": "GnosisSafeProxy - Generic proxy contract allows to execute all transactions applying the code of a master contract."
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/safeproxy.sol": "GnosisSafeProxy"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/safeproxy.sol": {
+			"keccak256": "0x44c6e8d4f98c6678d93e3ab6fe734ab5795437c45a20a74be8795b9cbf8329d6",
+			"urls": [
+				"bzzr://53af522232d5e2722f5c57e17f59f293a3c4c70b9acce2bb0618327fd2f4a702"
+			]
+		}
+	},
+	"version": 1
+}
